@@ -18,5 +18,6 @@ Opening naviation
 
 LOGIN
     Input Text    id=txtUsername    ${identification}[0]
+    Capture Element Screenshot    id=txtUsername    
     Input Password    id=txtPassword    ${identification}[1]
     Click button    id=btnLogin
